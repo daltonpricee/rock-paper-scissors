@@ -1,8 +1,4 @@
 import random
-
-
-
-
 # Get the user's move choice
 userSelection = input("Select your move:\n"
                       + "1: Rock\n"
