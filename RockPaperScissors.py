@@ -1,8 +1,9 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 import random
-# Get the user's move choice
+# While true, repeat the game for the player
 while True:
+    # Get the user's move choice
     userSelection = input("Select your move:\n"
                       + "1: Rock\n"
                         "2: Paper\n"
@@ -51,6 +52,7 @@ while True:
     else:
         print("Invalid")
     
+    # Play again prompt
     playAgain = input("Play again? (y/n): ")
     if playAgain.lower() != "y":
         break
